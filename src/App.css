@@ -1,0 +1,53 @@
+.App {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10%;
+    background-color: #fff
+}
+
+.div-title {
+    color: rgb(121, 116, 116);
+    font-size: 40px
+}
+
+.div-days, .div-hours, .div-mins, .div-secs {
+    color: #111;
+    text-align: center;
+    display: inline;
+    margin: 20px
+}
+.time {
+    border: solid 2px green;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+   
+}
+
+.move-area{/*normally use body*/
+    width: 10vw;
+    height: 10vh;
+    padding: 10% 45%;
+  }
+  .container {
+    text-align: center;
+    width: 100%;
+  }
+  .eye {
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background: #CCC;
+  }
+  .eye:after { /*pupil*/
+    position: absolute;
+    bottom: 17px;
+    right: 10px;
+    width: 10px;
+    height: 10px;
+    background: #000;
+    border-radius: 50%;
+    content: " ";
+  }
